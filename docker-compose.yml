@@ -1,0 +1,7 @@
+service:
+  kvfacweb:
+    build: .
+    container_name: kvfacweb
+    ports:
+      - "8010:80"
+    restart: always
